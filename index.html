@@ -201,10 +201,10 @@
             var urlInput = document.querySelector('.url-input');
             if (tabs.length === 0) {
                 urlInput.value = "Open a tab to begin!";
-                urlInput.removeAttribute('readonly'); // Make URL input editable when there are no tabs
+                urlInput.setAttribute('readonly', true);
             } else if (tabObj) {
                 urlInput.value = tabObj.iframe.src;
-                urlInput.setAttribute('readonly', true); // Make URL input readonly when tabs are present
+                urlInput.removeAttribute('readonly');
             }
         }
 
