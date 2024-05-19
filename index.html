@@ -210,7 +210,7 @@
 
         function fetchFavicon(url) {
             return new Promise(function(resolve) {
-                var faviconUrl = new URL(url).origin + '/favicon.ico';
+                var faviconUrl = 'https://www.google.com/s2/favicons?sz=64&domain=' + new URL(url).origin;
                 var img = new Image();
                 img.onload = function() {
                     resolve(faviconUrl);
