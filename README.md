@@ -1,3 +1,3 @@
-# https://bIobby-boi.github.io/blobrowser/
+# https://blobby-boi.github.io/blobrowser/
 ## Blobrowser
 An HTML Browser (not an unblocker)
